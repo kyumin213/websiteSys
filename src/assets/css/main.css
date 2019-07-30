@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mb20{
+	margin-bottom: 20px;
+}
+.ml20{
+	margin-left: 20px;
+}
+.txtCenter{
+	text-align: center;
+}
+.wid90{
+	width: 90%;
+}
+.el-footer{
+	background: #545c64;
+	color: #fff;
+	line-height: 60px;
+}
+.el-dialog__header {
+	background: #f2edf3;
+}
+.el-dialog {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 !important;
+	transform: translate(-50%, -50%);
+	max-height: calc(100% - 50px);
+	max-width: calc(100% - 50px);
+	display: flex;
+	flex-direction: column
+}
+
+.el-dialog>.el-dialog__body {
+	overflow: auto
+}
+
+.el-dialog>.el-dialog__footer {
+	background: #f2edf3;
+	padding: 10px 20px;
+}
+.el-form-item.is-success .el-input__inner, .el-form-item.is-success .el-input__inner:focus, .el-form-item.is-success .el-textarea__inner, .el-form-item.is-success .el-textarea__inner:focus{
+	border-color: #67C23A;
+}
+.el-form-item.is-success .el-input__validateIcon{
+	color: #67C23A;
+}
+.main{
+	width: 100%;
+	background: #fff;
+	padding: 20px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 20px #ccc;
+	border-radius: 8px;
+}
+.disline{
+	display: inline-block;
+}
+@media screen and (max-width: 1920px) {
+	.main {
+		max-width: 1500px;
+	}
+}
+@media screen and (max-width:1024px) {
+	.main {
+		width: 94%;
+	}
+}
